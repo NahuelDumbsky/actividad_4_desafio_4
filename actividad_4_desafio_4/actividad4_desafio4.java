@@ -10,7 +10,7 @@ public class actividad4_desafio4 {
         // instancio la letra con la que quiero filtrar las palabras
         char letter = 'c';
 
-        // Filtro palabras que empiecen o contengan la letra 'c'
+        // Filtro palabras que empiecen o contengan la letra 'C'
         words.stream()
                 .filter(word -> word.contains(String.valueOf(letter)))
                 // Muestro en pantalla la lista ya filtrada
